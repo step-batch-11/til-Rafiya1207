@@ -44,64 +44,27 @@ const template = `---
 date: ${dateStr}
 day: ${dayName(today)}
 week: ${isoWeekNumber(today)}
-tags:
-  - javascript
-  - til
-  - learning
-topics:
-  - 
-mood: 
 ---
 
-# Today I Learned
+# Topics Covered In Session
 
-Write **1–3 concrete things** you understood better today.
 
-- What *clicked* today?
-- What changed in your understanding?
-- What would you explain differently now?
+# Confusing
 
----
 
-# Still Confusing
+# Questions
 
-List **up to 3 things** that are still unclear.
 
-- What almost makes sense but doesn’t fully?
-- What would you like to see one more example of?
-- What feels fragile in your understanding?
+# Learnings Of The Day
 
----
 
-# Questions to Chase
+# What Have I Done Today
 
-Write **2–5 questions** worth pursuing later.
 
-Rules:
-- Questions must be specific
-- Avoid yes/no questions
+# Things To Do Tomorrow
 
-- “Why does X behave differently when Y?”
-- “What breaks if I remove Z?”
-- “How does this scale / fail / degrade?”
 
----
-
-# Tiny Experiments (Optional)
-
-Small things you want to try tomorrow or later.
-
-- A REPL experiment
-- A minimal snippet
-- A variation of today’s code
-
----
-
-# One-Sentence Summary
-
-Finish this sentence:
-
-> Today was useful because **______**.
+> Today was useful because **___**.
 `;
 
 await Deno.writeTextFile(filePath, template);
