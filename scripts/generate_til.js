@@ -55,6 +55,9 @@ week: ${isoWeekNumber(today)}
 # Questions
 
 
+# Things To Explore/Try
+
+
 # Learnings Of The Day
 
 
